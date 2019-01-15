@@ -72,7 +72,7 @@ let openedCard = function() {
     setTimeout(function() {
       enableClick();
     }, 1000);
-    //if (openList[0].innerHTML === openList[1].innerHTML) {
+    if (openList[0].innerHTML === openList[1].innerHTML) {
       matchedCards();
     } else if (openList[0].innerHTML != openList[1].innerHTML) {
       noMatch();
